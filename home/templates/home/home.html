@@ -1,0 +1,158 @@
+{% extends 'includes/base.html' %}
+
+{% load static %}
+
+{%block title%} Long Play Record Store{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+    <div id="inicio" class="inicio">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="{% static 'home/img/vinil1.webp' %}" class="d-block w-100" alt="...">
+                    
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="{% static 'home/img/vinil2.jpg' %}" class="d-block w-100" alt="...">
+                    
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="{% static 'home/img/vinil3.webp' %}" class="d-block w-100" alt="...">
+                    
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <hr>
+    <div id="material_nuevo" class="swiper mySwiper">
+        <h3><i class="bi bi-disc"></i> Discos recientemente agregados</h3>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="card" style="width: 20rem;">
+                    <img src="{% static 'home/img/alice.webp' %}" class="card-img-top" alt="habitaciones hotel bucaneros media luna">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card" style="width: 20rem;">
+                    <img src="{% static 'home/img/nirvana.webp' %}" class="card-img-top" alt="habitaciones hotel bucaneros media luna">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card" style="width: 20rem;">
+                    <img src="{% static 'home/img/christian_death.webp' %}" class="card-img-top" alt="habitaciones hotel bucaneros">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card" style="width: 20rem;">
+                    <img src="{% static 'home/img/the-esential.webp' %}" class="card-img-top" alt="habitaciones hotel bucaneros">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card" style="width: 20rem;">
+                    <img src="{% static 'home/img/the-fall.webp' %}" class="card-img-top" alt="habitaciones hotel bucaneros">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card" style="width: 20rem;">
+                    <img src="{% static 'home/img/black_flag.webp' %}" class="card-img-top" alt="habitaciones hotel bucaneros">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card" style="width: 20rem;">
+                    <img src="{% static 'home/img/gang_of_four.webp' %}" class="card-img-top" alt="habitaciones hotel bucaneros">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 offset-8"><a href="/vinilos/">Ver todos los vinilos disponibles</a></div>
+    </div>
+    <hr>
+    <div id="contacto" class="row">
+        <h3><i class="bi bi-chat-left-text"></i> Contáctanos</h3>
+        <div id="info-whatsapp" class="col-md-12">
+            <h2 style="text-align:center;">Envíanos un mensaje via whatsapp</h2>
+            <a class="btn btn-primary" href="https://wa.me/+524871011605" target="blank"><i class="bi bi-whatsapp"></i> Contáctanos</a>
+        </div>
+        
+    </div>
+
+
+</div>
+
+
+{% endblock %}
+
+{% block extrajs %}
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="{% static 'home/js/swiper.js' %}"></script>
+{% endblock %}

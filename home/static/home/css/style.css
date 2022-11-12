@@ -1,0 +1,237 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: #333 !important;
+    font-family: 'Bakbak One', cursive;
+}
+
+a{
+    color: #333;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Bakbak One', cursive;
+    color: #333 !important;
+}
+
+a:hover{
+    color: #c07E29 !important;
+}
+
+.logo{
+    width: 3rem;
+    margin-left: 5vh;
+}
+
+.navbar-login{
+    margin-right:auto !important;
+}
+
+
+.nav-link, .dropdown-item{
+    margin: auto auto;
+    margin-right: 5vh;
+    text-align: center;
+    color: rgb(77, 77, 77);
+    font-family: 'Bakbak One', cursive;
+}
+
+.nav-link:hover{
+    color: #c07E29 !important;
+    transition: 0.5s;
+}
+
+.form-check{
+    margin: auto;
+}
+
+.container{
+    margin-top: 10vh;
+    height: 100%;
+}
+
+.carousel img{
+    height: 40rem;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    background: rgba(3, 2, 2, 0.7);
+}
+
+.row{
+    margin: auto;
+    margin-top: 10vh;
+}
+
+h3{
+    margin-bottom: 10vh;
+    color: black;
+    text-align: center;
+}
+
+.col-md-4{
+    margin-bottom: 5vh;
+}
+
+.swiper{
+    margin-top: 10vh;
+    background-color: #333;
+}
+
+.swiper h3{
+    color: white !important;
+    margin-top: 2vh;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: white;
+}
+.card{
+    text-align: center;
+    color: black;
+    margin: auto auto;
+    margin-bottom: 5vh;
+}
+
+.card img{
+    height: 12rem;
+    object-fit: cover;
+}
+
+.btn-primary{
+    background-color:white;
+    border-color: black;
+    color: black;
+}
+
+.btn-primary:hover{
+    background-color: #333;
+    border-color: #333;
+    color: white !important;
+}
+
+ul{
+    margin: auto auto;
+    list-style: none;
+    list-style-type: none;
+}
+li{
+    text-align: center;
+}
+
+.form-check-input:checked{
+    background-color: #01FFFF;
+    border-color: #01FFFF;
+}
+
+form{
+    margin-top: 7vh;
+    padding: 5rem;
+    background-color: rgb(245, 244, 244);
+    color: #333;
+    border-radius: 5px solid;
+}
+
+form h3{
+    margin: auto;
+    margin-bottom: 5vh;
+    color: #333;
+}
+
+form .btn-primary{
+    margin: auto;
+}
+
+#info-whatsapp{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: whitesmoke;
+    color: #6d6b6a;
+    border: 1px solid rgb(215, 210, 210);
+    padding: 50px;
+    text-align: center;
+}
+
+#info-whatsapp a{
+    background-color: white;
+    border-color: #333;
+    color: #333;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#info-whatsapp a:hover{
+    background-color: rgb(25, 187, 25);
+    border-color: rgb(25, 187, 25);
+    color: white !important;
+    text-align: center;
+}
+
+hr{
+    color: #333;
+}
+
+@media (max-width: 1280px){
+
+    .inicio{
+        margin-top: 4vh;
+    }
+
+    body,html{
+        margin: 0;
+        width: 100%;
+        overflow-x: hidden !important;
+    }
+
+    .nav-item{
+        margin: auto;
+    }
+
+    .nav-link{
+        margin-right: 0;
+    }
+
+    .col-md-4{
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px){
+    body,html{
+        margin: 0;
+        width: 100%;
+        overflow-x: hidden !important;
+    }
+
+    .nav-item{
+        margin: auto;
+    }
+
+    .nav-link{
+        margin-right: 0;
+    }
+
+    .col-md-4{
+        width: 100%;
+    }
+
+    .carousel-caption{
+        background: rgba(3, 2, 2, 0.7);
+    }
+
+    .offset-8 {
+        margin-left: 25%;
+    }
+
+    #info-whatsapp a{
+        background-color: rgb(25, 187, 25);
+        border-color: rgb(25, 187, 25);
+        color: white;
+        text-align: center;
+        }
+    
+}
